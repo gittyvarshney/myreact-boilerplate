@@ -1,0 +1,39 @@
+{
+  "name": "my-react-boilerplate",
+  "version": "1.0.0",
+  "description": "my custom boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node server"
+  },
+  "author": "pranjul",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-react-constant-elements": "^7.16.7",
+    "@babel/plugin-transform-react-inline-elements": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.1.0",
+    "image-webpack-loader": "^8.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-middleware": "^5.3.0",
+    "webpack-hot-middleware": "^2.25.1"
+  },
+  "dependencies": {
+    "circular-dependency-plugin": "^5.2.2",
+    "compression": "^1.7.4",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.2",
+    "html-webpack-plugin": "^5.5.0",
+    "minimist": "^1.2.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
